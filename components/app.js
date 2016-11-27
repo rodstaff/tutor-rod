@@ -6,14 +6,12 @@ import Veggies from '../sections/veggies'
 import Checkout from '../sections/checkout'
 import Contact from '../sections/contact'
 import FruitsData from '../data/fruits'
-import VeggiesData from '../data/veggies'
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      fruits: this.props.fruits,
-      veggies: this.props.veggies
+      fruits: this.props.fruits
     };
   }
   render() {
@@ -29,10 +27,8 @@ export default class App extends React.Component {
   }
 }
 App.PropTypes = {
-  fruits: React.PropTypes.array.isRequired,
-  veggies: React.PropTypes.array.isRequired
+  fruits: React.PropTypes.array.isRequired
 }
 App.defaultProps = {
-  fruits: FruitsData(),
-  veggies: VeggiesData()
+  fruits: FruitsData()
 }
