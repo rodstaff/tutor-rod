@@ -19,7 +19,7 @@ export default class Home extends React.Component {
   render() {
   	return (
 
-      <div id="home" class="container-fluid" style={myStyle1}>
+      <div id="home" class="container-fluid text-center" style={myStyle1}>
         <h1>A convenient place to buy your seeds online!</h1>
         
         <img src={Pic} width="600px" class="img-responsive pull-left gap-right" style={myStyle2}/>
