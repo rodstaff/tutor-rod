@@ -5,20 +5,22 @@ import Fruits from '../sections/fruits'
 
 import Register from '../sections/register'
 import Contact from '../sections/contact'
-import FruitsData from '../data/fruits'
+import fruitsData from '../data/fruits'
+import homeBkImg from '../data/home-background'
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      fruits: this.props.fruits
+      fruits: this.props.fruits,
+      homeImg: this.props.homeImg
     };
   }
   render() {
     return (
       <div>
         <Nav />
-        <Home />
+        <Home homeImg={this.state.homeImg}/>
         <Fruits fruits={this.state.fruits}/>
         <Register/>      
         <Contact />
@@ -27,8 +29,10 @@ export default class App extends React.Component {
   }
 }
 App.PropTypes = {
-  fruits: React.PropTypes.array.isRequired
+  fruits: React.PropTypes.array.isRequired,
+  homeImg: React.PropTypes.array.isRequired
 }
 App.defaultProps = {
-  fruits: FruitsData()
+  fruits: fruitsData(),
+  homeImg: homeBkImg()
 }

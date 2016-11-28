@@ -1,6 +1,4 @@
 import React from 'react'
-import Pic from '../public/images/fruitsVegs.jpeg'
-//import Pic from '../public/images/backImage'
 
 var myStyle1 = {
 	fontFamily: "Dosis",
@@ -8,7 +6,7 @@ var myStyle1 = {
     paddingBottom: "20px",
   	height: "100%",
   	color:  "#000",
-  	backgroundColor: "blue",
+  	backgroundColor: "blue"
 }
 var myStyle2 = {
   marginRight: "10px",
@@ -22,10 +20,16 @@ export default class Home extends React.Component {
       <div id="home" class="container-fluid text-center" style={myStyle1}>
         <h1>A convenient place to buy your seeds online!</h1>
         
-        <img src={Pic} width="600px" class="img-responsive pull-left gap-right" style={myStyle2}/>
+        <img src={this.props.homeImg[0].image} width="600px" class="img-responsive pull-left gap-right" style={myStyle2}/>
         <p>God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog. &nbsp;&nbsp;God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.&nbsp;&nbsp;God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.&nbsp;&nbsp;God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.&nbsp;&nbsp;God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.</p>
       </div>
     );
   }
+}
+Home.propTypes = {
+  homeImg: React.PropTypes.array.isRequired
+}
+Home.defaultProps = {
+  homeImg: []
 }
 
