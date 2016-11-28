@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../routes/nav'
 import Home from '../sections/home'
 import Fruits from '../sections/fruits'
-import Veggies from '../sections/veggies'
+
 import Checkout from '../sections/checkout'
 import Contact from '../sections/contact'
 import FruitsData from '../data/fruits'
