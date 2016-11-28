@@ -19,7 +19,7 @@ export default class Nav extends React.Component {
       <ul class="nav navbar-nav">
         <li><a href="#home">Home</a></li>
         <li><a href="#fruits">Fruits</a></li>
-        <li><a href="#checkout">Checkout</a></li>
+        <li><a href="#register">Register</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>

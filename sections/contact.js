@@ -3,7 +3,7 @@ import React from 'react'
 var myStyle = {
 	fontFamily: "Dosis",
   	paddingTop: "50px",
-  	height: "300px",
+  	height: "100%",
   	color: "#fff",
   	backgroundColor: "#505050"
 }

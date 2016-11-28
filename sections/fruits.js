@@ -1,11 +1,11 @@
 import React from 'react'
 import FruitItems from '../components/fruit-items'
-import Checkout from './checkout'
 
 var myStyle = {
 	fontFamily: "Dosis",
   	paddingTop: "50px",
-  	height: "680px",
+    paddingBottom: "20px",
+  	height: "100%",
   	color: "#000",
   	backgroundColor: "#FFCC00"
 }

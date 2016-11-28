@@ -3,7 +3,7 @@ import Nav from '../routes/nav'
 import Home from '../sections/home'
 import Fruits from '../sections/fruits'
 
-import Checkout from '../sections/checkout'
+import Register from '../sections/register'
 import Contact from '../sections/contact'
 import FruitsData from '../data/fruits'
 
@@ -20,7 +20,7 @@ export default class App extends React.Component {
         <Nav />
         <Home />
         <Fruits fruits={this.state.fruits}/>
-        <Checkout/>      
+        <Register/>      
         <Contact />
       </div>
     );

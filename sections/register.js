@@ -4,12 +4,12 @@ import BuyFruits from '../components/buy-fruits'
 var myStyle = {
   fontFamily: "Dosis",
     paddingTop: "50px",
-    height: "500px",
+    height: "100%",
     color: "#000",
     backgroundColor: "#79d279"
 }
 
-export default class Checkout extends React.Component {
+export default class Register extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,11 +21,11 @@ export default class Checkout extends React.Component {
       .map(fruit => <BuyFruits key={fruit.id} cname={fruit.cname} price={fruit.price}/> );
     console.log(this.props);
     return (
-      <div id="checkout" class="container-fluid" style={myStyle}>
+      <div id="register" class="container-fluid" style={myStyle}>
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center">
-              <h1>Checkout</h1>
+              <h1>Register</h1>
             </div>
           </div>
         </div>
@@ -36,9 +36,9 @@ export default class Checkout extends React.Component {
     );
   }
 }
-Checkout.propTypes = {
+Register.propTypes = {
   fruits: React.PropTypes.array
 }
-Checkout.defaultProps = {
+Register.defaultProps = {
   fruits: []
 }
