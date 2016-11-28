@@ -1,17 +1,16 @@
 import React from 'react'
 import FruitItems from '../components/fruit-items'
 
-var myStyle = {
-	fontFamily: "Dosis",
-  	paddingTop: "50px",
-    paddingBottom: "20px",
-  	height: "100%",
-  	color: "#000",
-  	backgroundColor: "#FFCC00"
-}
-
 export default class Fruits extends React.Component {
   render() {
+    var myStyle = {
+      fontFamily: "Dosis",
+      paddingTop: "50px",
+      paddingBottom: "20px",
+      height: "100%",
+      color: "#000",
+      backgroundColor: "#FFCC00"
+    }
     const showFruits = this.props.fruits.map(fruit => 
       <FruitItems key={fruit.id} id={fruit.id} cname={fruit.cname} lname={fruit.lname} price={fruit.price} isChecked={fruit.isChecked}/> );
   	return (

@@ -1,8 +1,8 @@
 import React from 'react'
 import Nav from '../routes/nav'
 import Home from '../sections/home'
+import About from '../sections/about'
 import Fruits from '../sections/fruits'
-
 import Register from '../sections/register'
 import Contact from '../sections/contact'
 import fruitsData from '../data/fruits'
@@ -21,6 +21,7 @@ export default class App extends React.Component {
       <div>
         <Nav />
         <Home bkImg={this.state.bkImg}/>
+        <About bkImg={this.state.bkImg}/>
         <Fruits fruits={this.state.fruits}/>
         <Register/>      
         <Contact />
