@@ -20,16 +20,16 @@ export default class Home extends React.Component {
       <div id="home" class="container-fluid text-center" style={myStyle1}>
         <h1>A convenient place to buy your seeds online!</h1>
         
-        <img src={this.props.homeImg[0].image} width="600px" class="img-responsive pull-left gap-right" style={myStyle2}/>
+        <img src={this.props.bkImg[1].aboutImg} width="600px" class="img-responsive pull-left gap-right" style={myStyle2}/>
         <p>God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog. &nbsp;&nbsp;God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.&nbsp;&nbsp;God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.&nbsp;&nbsp;God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.&nbsp;&nbsp;God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.</p>
       </div>
     );
   }
 }
 Home.propTypes = {
-  homeImg: React.PropTypes.array.isRequired
+  bkImg: React.PropTypes.array.isRequired
 }
 Home.defaultProps = {
-  homeImg: []
+  bkImg: []
 }
 
