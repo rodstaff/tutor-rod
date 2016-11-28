@@ -17,7 +17,7 @@ export default class FruitItems extends React.Component {
   	);
   }
   render() {
-  	const { cname, lname, price, isChecked } = this.props;
+  	const { id, cname, lname, price, isChecked } = this.props;
     const myStyle = {
       border: "1px double black",
       borderRadius: 15,
@@ -40,12 +40,14 @@ export default class FruitItems extends React.Component {
   }
 }
 FruitItems.propTypes = {
+  id: React.PropTypes.number,
   cname: React.PropTypes.string,
   lname: React.PropTypes.string,
   price: React.PropTypes.number,
   isChecked: React.PropTypes.bool
 }
 FruitItems.defaultProps = {
+  id: 0,
   cname: '',
   lname: '',
   price: 0,
