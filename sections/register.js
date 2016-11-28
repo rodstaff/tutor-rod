@@ -1,5 +1,4 @@
 import React from 'react'
-import BuyFruits from '../components/buy-fruits'
 
 var myStyle = {
   fontFamily: "Dosis",
@@ -10,35 +9,20 @@ var myStyle = {
 }
 
 export default class Register extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      fruits: this.props.fruits
-    };
-  }
   render() {
-    const listFruits = this.state.fruits.filter(fruit => fruit.isChecked === true)
-      .map(fruit => <BuyFruits key={fruit.id} cname={fruit.cname} price={fruit.price}/> );
-    console.log(this.props);
     return (
       <div id="register" class="container-fluid" style={myStyle}>
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center">
               <h1>Register</h1>
+              <p>God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.</p>
             </div>
           </div>
         </div>
         <div class="row">
-          {listFruits}
         </div>
       </div>
     );
   }
-}
-Register.propTypes = {
-  fruits: React.PropTypes.array
-}
-Register.defaultProps = {
-  fruits: []
 }

@@ -1,21 +1,6 @@
 import React from 'react'
 
-var newFruitsList = [],
-    testNumber = 0;
-
 export default class FruitItems extends React.Component { 
-  constructor(props) {
-  	super(props);
-  	this.state ={
-  	  isChecked: this.props.isChecked
-  	}
-  }
-  toggleChange() {
-  	this.setState({
-      isChecked: !this.state.isChecked
-  	}//, function() { console.log(this.state) }
-  	);
-  }
   render() {
   	const { id, cname, lname, price, isChecked } = this.props;
     const myStyle = {
@@ -38,13 +23,11 @@ FruitItems.propTypes = {
   id: React.PropTypes.number,
   cname: React.PropTypes.string,
   lname: React.PropTypes.string,
-  price: React.PropTypes.number,
-  isChecked: React.PropTypes.bool
+  price: React.PropTypes.number
 }
 FruitItems.defaultProps = {
   id: 0,
   cname: '',
   lname: '',
-  price: 0,
-  isChecked: false
+  price: 0
 }
