@@ -1,7 +1,10 @@
 import React from 'react'
 
-var myStyle = {
+var myStyle1 = {
     color:  "#fff",
+}
+var myStyle2 = {
+    marginRight:  "15px",
 }
 export default class Nav extends React.Component {
   render() {
@@ -11,7 +14,7 @@ export default class Nav extends React.Component {
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="" style={myStyle}>MENU</span>
+          <span class="" style={myStyle1}>MENU</span>
         </button>
       </div>
     </div>
@@ -20,8 +23,10 @@ export default class Nav extends React.Component {
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#fruits">Fruits</a></li>
-        <li><a href="#register">Register</a></li>
         <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" style={myStyle2}>
+        <li><a href="#register"><span class="glyphicon glyphicon-user"></span>&nbsp;Sign Up</a></li>
       </ul>
     </div>
   </nav>
