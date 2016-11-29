@@ -8,7 +8,7 @@ export default class About extends React.Component {
       paddingBottom: "20px",
       height: "100%",
       color:  "#000",
-      backgroundColor: "blue"
+      backgroundColor: "#cc0044"
     }
     var myStyle2 = {
       marginRight: "15px",

@@ -9,7 +9,7 @@ export default class Fruits extends React.Component {
       paddingBottom: "20px",
       height: "100%",
       color: "#000",
-      backgroundColor: "#FFCC00"
+      backgroundColor: "#ffcc00"
     }
     const showFruits = this.props.fruits.map(fruit => 
       <FruitItems key={fruit.id} id={fruit.id} cname={fruit.cname} lname={fruit.lname} price={fruit.price} isChecked={fruit.isChecked}/> );

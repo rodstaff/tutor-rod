@@ -5,7 +5,7 @@ var myStyle = {
     paddingTop: "50px",
     height: "100%",
     color: "#000",
-    backgroundColor: "#79d279"
+    backgroundColor: "#00b33c"
 }
 
 export default class Register extends React.Component {
