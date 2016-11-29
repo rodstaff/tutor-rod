@@ -1,15 +1,14 @@
 import React from 'react'
 
-var myStyle = {
-  fontFamily: "Dosis",
-    paddingTop: "50px",
-    height: "100%",
-    color: "#000",
-    backgroundColor: "#00b33c"
-}
-
 export default class Register extends React.Component {
   render() {
+    var myStyle = {
+      fontFamily: "Dosis",
+      paddingTop: "50px",
+      height: "100%",
+      color: "#000",
+      backgroundColor: "#00b33c"
+    }
     return (
       <div id="register" class="container-fluid" style={myStyle}>
         <div class="row">

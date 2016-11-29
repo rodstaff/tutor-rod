@@ -1,15 +1,14 @@
 import React from 'react'
 
-var myStyle = {
-	fontFamily: "Dosis",
-  	paddingTop: "50px",
-  	height: "100%",
-  	color: "#fff",
-  	backgroundColor: "#505050"
-}
-
 export default class Contact extends React.Component {
   render() {
+    var myStyle = {
+      fontFamily: "Dosis",
+      paddingTop: "50px",
+      height: "100%",
+      color: "#fff",
+      backgroundColor: "#505050"
+    }
   	return (
       <div id="contact" class="container-fluid" style={myStyle}>
         <div class="row">

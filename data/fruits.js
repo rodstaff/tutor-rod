@@ -19,7 +19,8 @@ export default function() {
       lname: "Pyrus malus",
       price: 5.31,
       isChecked: false,
-      img:  apple
+      img:  apple,
+      link: "https://en.wikipedia.org/wiki/Apple"
     },
     {
       id: 2,
@@ -27,7 +28,8 @@ export default function() {
       lname: "Musa paradisicum",
       price: 4.39,
       isChecked: false,
-      img:  banana
+      img:  banana,
+      link: "https://en.wikipedia.org/wiki/Banana"
     },
     {
       id: 3,
@@ -35,7 +37,8 @@ export default function() {
       lname: "Actinidia deliciosa",
       price: 4.78,
       isChecked: false,
-      img:  kiwi
+      img:  kiwi,
+      link: "https://en.wikipedia.org/wiki/Kiwifruit"
     },
     {
       id: 4,
@@ -43,7 +46,8 @@ export default function() {
       lname: "Litchi chinensis",
       price: 6.12,
       isChecked: false,
-      img:  lychee
+      img:  lychee,
+      link: "https://en.wikipedia.org/wiki/Lychee"
     },
     {
       id: 5,
@@ -51,7 +55,8 @@ export default function() {
       lname: "Mangifera indica",
       price: 6.32,
       isChecked: false,
-      img:  mango
+      img:  mango,
+      link: "https://en.wikipedia.org/wiki/Mango"
     },
     {
       id: 6,
@@ -59,7 +64,8 @@ export default function() {
       lname: "Citrus aurantium",
       price: 4.56,
       isChecked: false,
-      img:  orange
+      img:  orange,
+      link: "https://en.wikipedia.org/wiki/Orange_(fruit)"
     },
     {
       id: 7,
@@ -67,7 +73,8 @@ export default function() {
       lname: "Carica papaya",
       price: 5.13,
       isChecked: false,
-      img:  papaya
+      img:  papaya,
+      link: "https://en.wikipedia.org/wiki/Papaya"
     },
     {
       id: 8,
@@ -75,7 +82,8 @@ export default function() {
       lname: "Prunus persica",
       price: 4.97,
       isChecked: false,
-      img:  peach
+      img:  peach,
+      link: "https://en.wikipedia.org/wiki/Peach"
     },
     {
       id: 9,
@@ -83,7 +91,8 @@ export default function() {
       lname: "Ananus sativus",
       price: 4.97,
       isChecked: false,
-      img:  pineapple
+      img:  pineapple,
+      link: "https://en.wikipedia.org/wiki/Pineapple"
     },
     {
       id: 10,
@@ -91,7 +100,8 @@ export default function() {
       lname: "Punica granatum",
       price: 3.97,
       isChecked: false,
-      img:  pomegranate
+      img:  pomegranate,
+      link: "https://en.wikipedia.org/wiki/Pomegranate"
     },
     {
       id: 11,
@@ -99,7 +109,8 @@ export default function() {
       lname: "Solanum lycopersicum",
       price: 4.39,
       isChecked: false,
-      img:  tomato
+      img:  tomato,
+      link: "https://en.wikipedia.org/wiki/Tomato"
     },
     {
       id: 12,
@@ -107,7 +118,8 @@ export default function() {
       lname: "Citrullus vulgaris",
       price: 5.27,
       isChecked: false,
-      img:  watermelon
+      img:  watermelon,
+      link: "https://en.wikipedia.org/wiki/Watermelon"
     }
   ];
 };
