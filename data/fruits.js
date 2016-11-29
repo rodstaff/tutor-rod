@@ -1,3 +1,16 @@
+import apple from '../public/images/fruits/apple.jpeg'
+import banana from '../public/images/fruits/banana.jpeg'
+import kiwi from '../public/images/fruits/kiwi.jpeg'
+import lychee from '../public/images/fruits/lychee.jpeg'
+import mango from '../public/images/fruits/mango.jpeg'
+import orange from '../public/images/fruits/orange.jpeg'
+import papaya from '../public/images/fruits/papaya.jpeg'
+import peach from '../public/images/fruits/peach.jpeg'
+import pineapple from '../public/images/fruits/pineapple.jpeg'
+import pomegranate from '../public/images/fruits/pomegranate.jpeg'
+import tomato from '../public/images/fruits/tomato.jpeg'
+import watermelon from '../public/images/fruits/watermelon.jpeg'
+
 export default function() {
   return [
     {
@@ -6,7 +19,7 @@ export default function() {
       lname: "Pyrus malus",
       price: 5.31,
       isChecked: false,
-      img:  ""
+      img:  apple
     },
     {
       id: 2,
@@ -14,55 +27,55 @@ export default function() {
       lname: "Musa paradisicum",
       price: 4.39,
       isChecked: false,
-      img:  ""
+      img:  banana
     },
     {
       id: 3,
-      cname: "Cantaloupe",
-      lname: "Cucumis melo",
+      cname: "Kiwi",
+      lname: "Actinidia deliciosa",
       price: 4.78,
       isChecked: false,
-      img:  ""
+      img:  kiwi
     },
     {
       id: 4,
-      cname: "Guava",
-      lname: "Psidium guava",
-      price: 4.98,
-      isChecked: false,
-      img:  ""
-    },
-    {
-      id: 5,
-      cname: "Jackfruit",
-      lname: "Artocarpus heterophyllus",
-      price: 5.67,
-      isChecked: false,
-      img:  ""
-    },
-    {
-      id: 6,
       cname: "Lychee",
       lname: "Litchi chinensis",
       price: 6.12,
       isChecked: false,
-      img:  ""
+      img:  lychee
     },
     {
-      id: 7,
+      id: 5,
+      cname: "Mango",
+      lname: "Mangifera indica",
+      price: 6.32,
+      isChecked: false,
+      img:  mango
+    },
+    {
+      id: 6,
       cname: "Orange",
       lname: "Citrus aurantium",
       price: 4.56,
       isChecked: false,
-      img:  ""
+      img:  orange
     },
     {
-      id: 8,
+      id: 7,
       cname: "Papaya",
       lname: "Carica papaya",
       price: 5.13,
       isChecked: false,
-      img:  ""
+      img:  papaya
+    },
+    {
+      id: 8,
+      cname: "Peach",
+      lname: "Prunus persica",
+      price: 4.97,
+      isChecked: false,
+      img:  peach
     },
     {
       id: 9,
@@ -70,7 +83,7 @@ export default function() {
       lname: "Ananus sativus",
       price: 4.97,
       isChecked: false,
-      img:  ""
+      img:  pineapple
     },
     {
       id: 10,
@@ -78,15 +91,15 @@ export default function() {
       lname: "Punica granatum",
       price: 3.97,
       isChecked: false,
-      img:  ""
+      img:  pomegranate
     },
     {
       id: 11,
       cname: "Tomato",
-      lname: "Lycopersican esculentum",
+      lname: "Solanum lycopersicum",
       price: 4.39,
       isChecked: false,
-      img:  ""
+      img:  tomato
     },
     {
       id: 12,
@@ -94,7 +107,7 @@ export default function() {
       lname: "Citrullus vulgaris",
       price: 5.27,
       isChecked: false,
-      img:  ""
+      img:  watermelon
     }
   ];
 };

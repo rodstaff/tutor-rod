@@ -2,7 +2,7 @@ import React from 'react'
 
 export default class FruitItems extends React.Component { 
   render() {
-  	const { id, cname, lname, price, isChecked } = this.props;
+  	const { id, cname, lname, price, img } = this.props;
     const myStyle = {
       border: "1px double black",
       borderRadius: 15,
@@ -15,6 +15,7 @@ export default class FruitItems extends React.Component {
         <h4>{cname}</h4>
         <h5><em>{lname}</em></h5>
         <h5>Price:&nbsp;&nbsp;${price}</h5>
+        <img src={img} height="150px" class="thumbnail center-block" />
       </div>
     );
   }
