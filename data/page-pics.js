@@ -1,13 +1,13 @@
-import homeBkgrnd from '../public/images/others/home.jpg'
-import aboutBkgrnd from '../public/images/others/about.jpeg'
+import home from '../public/images/others/home.jpg'
+import about from '../public/images/others/about.jpeg'
 
 export default function() {
   return [
     {
-      homeImg: homeBkgrnd
+      homeImg: home
     },
     {
-      aboutImg: aboutBkgrnd
+      aboutImg: about
     }
   ];
 };
