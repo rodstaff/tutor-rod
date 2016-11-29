@@ -1,15 +1,15 @@
 import apple from '../public/images/fruits/apple.jpeg'
 import banana from '../public/images/fruits/banana.jpeg'
-import kiwi from '../public/images/fruits/kiwi.jpeg'
+import grapes from '../public/images/fruits/grapes.jpg'
 import lychee from '../public/images/fruits/lychee.jpeg'
 import mango from '../public/images/fruits/mango.jpeg'
 import orange from '../public/images/fruits/orange.jpeg'
-import papaya from '../public/images/fruits/papaya.jpeg'
+import raspberry from '../public/images/fruits/raspberries.jpg'
 import peach from '../public/images/fruits/peach.jpeg'
 import pineapple from '../public/images/fruits/pineapple.jpeg'
 import pomegranate from '../public/images/fruits/pomegranate.jpeg'
 import tomato from '../public/images/fruits/tomato.jpeg'
-import watermelon from '../public/images/fruits/watermelon.jpeg'
+import strawberry from '../public/images/fruits/strawberry.jpg'
 
 export default function() {
   return [
@@ -33,12 +33,12 @@ export default function() {
     },
     {
       id: 3,
-      cname: "Kiwi",
-      lname: "Actinidia deliciosa",
+      cname: "Grapes",
+      lname: "Vitis vinifera",
       price: 4.78,
       isChecked: false,
-      img:  kiwi,
-      link: "https://en.wikipedia.org/wiki/Kiwifruit"
+      img:  grapes,
+      link: "https://en.wikipedia.org/wiki/Grape"
     },
     {
       id: 4,
@@ -69,15 +69,6 @@ export default function() {
     },
     {
       id: 7,
-      cname: "Papaya",
-      lname: "Carica papaya",
-      price: 5.13,
-      isChecked: false,
-      img:  papaya,
-      link: "https://en.wikipedia.org/wiki/Papaya"
-    },
-    {
-      id: 8,
       cname: "Peach",
       lname: "Prunus persica",
       price: 4.97,
@@ -86,7 +77,7 @@ export default function() {
       link: "https://en.wikipedia.org/wiki/Peach"
     },
     {
-      id: 9,
+      id: 8,
       cname: "Pineapple",
       lname: "Ananus sativus",
       price: 4.97,
@@ -95,7 +86,7 @@ export default function() {
       link: "https://en.wikipedia.org/wiki/Pineapple"
     },
     {
-      id: 10,
+      id: 9,
       cname: "Pomegranate",
       lname: "Punica granatum",
       price: 3.97,
@@ -104,22 +95,31 @@ export default function() {
       link: "https://en.wikipedia.org/wiki/Pomegranate"
     },
     {
+      id: 10,
+      cname: "Raspberry",
+      lname: "Rubus idaeobatus",
+      price: 5.13,
+      isChecked: false,
+      img:  raspberry,
+      link: "https://en.wikipedia.org/wiki/Raspberry"
+    },
+    {
       id: 11,
+      cname: "Strawberry",
+      lname: "Fragaria ananassa",
+      price: 5.27,
+      isChecked: false,
+      img:  strawberry,
+      link: "https://en.wikipedia.org/wiki/Strawberry"
+    },
+    {
+      id: 12,
       cname: "Tomato",
       lname: "Solanum lycopersicum",
       price: 4.39,
       isChecked: false,
       img:  tomato,
       link: "https://en.wikipedia.org/wiki/Tomato"
-    },
-    {
-      id: 12,
-      cname: "Watermelon",
-      lname: "Citrullus vulgaris",
-      price: 5.27,
-      isChecked: false,
-      img:  watermelon,
-      link: "https://en.wikipedia.org/wiki/Watermelon"
     }
   ];
 };
