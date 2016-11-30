@@ -1,15 +1,15 @@
 import apple from '../public/images/fruits/apple.jpeg'
 import banana from '../public/images/fruits/banana.jpeg'
-import grapes from '../public/images/fruits/grapes.jpg'
+import grapes from '../public/images/fruits/grapes.jpeg'
 import lychee from '../public/images/fruits/lychee.jpeg'
 import mango from '../public/images/fruits/mango.jpeg'
 import orange from '../public/images/fruits/orange.jpeg'
-import raspberry from '../public/images/fruits/raspberries.jpg'
+import raspberry from '../public/images/fruits/raspberry.jpeg'
 import peach from '../public/images/fruits/peach.jpeg'
 import pineapple from '../public/images/fruits/pineapple.jpeg'
 import pomegranate from '../public/images/fruits/pomegranate.jpeg'
 import tomato from '../public/images/fruits/tomato.jpeg'
-import strawberry from '../public/images/fruits/strawberry.jpg'
+import strawberry from '../public/images/fruits/strawberry.jpeg'
 
 export default function() {
   return [
@@ -40,7 +40,7 @@ export default function() {
       price: 4.78,
       isChecked: false,
       img:  grapes,
-      size: "43 Kbyte",
+      size: "5 Kbyte",
       link: "https://en.wikipedia.org/wiki/Grape"
     },
     {
@@ -110,7 +110,7 @@ export default function() {
       price: 5.13,
       isChecked: false,
       img:  raspberry,
-      size: "119 Kbyte",
+      size: "7 Kbyte",
       link: "https://en.wikipedia.org/wiki/Raspberry"
     },
     {
@@ -120,7 +120,7 @@ export default function() {
       price: 5.27,
       isChecked: false,
       img:  strawberry,
-      size: "54 Kbyte",
+      size: "13 Kbyte",
       link: "https://en.wikipedia.org/wiki/Strawberry"
     },
     {

@@ -1,5 +1,5 @@
 import home from '../public/images/others/home.jpg'
-import about from '../public/images/others/about.jpeg'
+import about from '../public/images/others/about.jpg'
 
 export default function() {
   return [
@@ -9,7 +9,7 @@ export default function() {
     }, 
     {
       aboutImg: about,
-      size: "10 Kbyte"
+      size: "102 Kbyte"
     }
   ];
 };
