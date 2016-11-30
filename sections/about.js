@@ -18,6 +18,7 @@ export default class About extends React.Component {
   	return (
 
       <div id="about" class="container-fluid text-center" style={myStyle1}>
+        <h3>{'<'}<em> demo </em>{'>'}&nbsp;</h3>
         <h1>`Pro-Seed` is a convenient place to buy your fruit seeds online! &nbsp;&nbsp;(Members only: &nbsp;&nbsp;Register below.)</h1>
         
         <img src={this.props.bkImg[1].aboutImg} width="600px" class="img-responsive pull-left gap-right" style={myStyle2}/>

@@ -4,7 +4,7 @@ var path = require('path');
 module.exports = {
   entry: './routes', 
   output: {
-    path: '',
+    path: '../pro-seed-heroku/public',
     filename: 'bundle.js'  
   },
   devServer: {

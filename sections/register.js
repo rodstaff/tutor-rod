@@ -20,7 +20,7 @@ export default class Register extends React.Component {
           <div class="col-lg-12">
             <div class="text-center">
               <h1>Register for membership</h1>
-              <h4 style={myStyle2}>(Note: &nbsp;&nbsp;This Signup form is not active.)</h4>
+              <h4 style={myStyle2}>{'<'} Note: &nbsp;&nbsp;This signup form is not active. {'>'}</h4>
             </div>
           </div>
         </div>

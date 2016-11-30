@@ -18,6 +18,7 @@ export default class Fruits extends React.Component {
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center">
+              <h3>{'<'}<em> demo </em>{'>'}&nbsp;</h3>
               <h1>Fruit Seeds List</h1>
             </div>
           </div>

@@ -18,6 +18,7 @@ export default class Team extends React.Component {
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center">
+              <h3>{'<'}<em> demo </em>{'>'}&nbsp;</h3>
               <h1>Meet the Team</h1>
               <br /><br />
             </div>
@@ -26,17 +27,19 @@ export default class Team extends React.Component {
         <div class="row">
         {showTeamMembers}
         </div>
+        <hr />
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center">
               <br />
+              <h3>{'<'}<em> demo </em>{'>'}&nbsp;</h3>
               <h1>Contact Info</h1>
               <br />
               <h3>ProSeed Inc.</h3>
-              <h4>12-34 56th St. 78th Ave Flr 9 Ste 1011</h4>
-              <h4>New York, NY 121314</h4>
-              <h4>Tel: &nbsp;&nbsp;( 1516 ) 1718-1920</h4>
-              <h4>EmaiL &nbsp;&nbsp;info@proseed.com</h4>
+              <h4>12-34 56th St. 78th Ave Flr 90 Ste 1234</h4>
+              <h4>New York, NY 56789</h4>
+              <h4>Tel: &nbsp;&nbsp;( 0123 ) 456-7890</h4>
+              <h4>EmaiL &nbsp;&nbsp;abc-123@proseed.com</h4>
             </div>
           </div>
         </div>

@@ -4,8 +4,6 @@ export default class TeamMems extends React.Component {
   render() {
   	const { id, fname, lname, title, linkedin, photo } = this.props;
     const myStyle = {
-      border: "1px double black",
-      borderRadius: 15,
       marginLeft: 0,
       marginRight: 0,
       marginBottom: 2
@@ -13,7 +11,7 @@ export default class TeamMems extends React.Component {
     return (
       <div class="col-lg-3 col-md-6 col-sm-6 text-center" style={myStyle}>
         <br />
-        <a href={linkedin}><img src={photo} height="175px" class="thumbnail center-block" /></a>
+        <a href={linkedin}><img src={photo} height="200px" class="thumbnail center-block" /></a>
         <h4>{fname} {lname}</h4>
         <h5><em>{title}</em></h5>
         <br />
