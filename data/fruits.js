@@ -20,6 +20,7 @@ export default function() {
       price: 5.31,
       isChecked: false,
       img:  apple,
+      size: "8 Kbyte",
       link: "https://en.wikipedia.org/wiki/Apple"
     },
     {
@@ -29,6 +30,7 @@ export default function() {
       price: 4.39,
       isChecked: false,
       img:  banana,
+      size: "6 Kbyte",
       link: "https://en.wikipedia.org/wiki/Banana"
     },
     {
@@ -38,6 +40,7 @@ export default function() {
       price: 4.78,
       isChecked: false,
       img:  grapes,
+      size: "43 Kbyte",
       link: "https://en.wikipedia.org/wiki/Grape"
     },
     {
@@ -47,6 +50,7 @@ export default function() {
       price: 6.12,
       isChecked: false,
       img:  lychee,
+      size: "7 Kbyte",
       link: "https://en.wikipedia.org/wiki/Lychee"
     },
     {
@@ -56,6 +60,7 @@ export default function() {
       price: 6.32,
       isChecked: false,
       img:  mango,
+      size: "7 Kbyte",
       link: "https://en.wikipedia.org/wiki/Mango"
     },
     {
@@ -65,6 +70,7 @@ export default function() {
       price: 4.56,
       isChecked: false,
       img:  orange,
+      size: "10 Kbyte",
       link: "https://en.wikipedia.org/wiki/Orange_(fruit)"
     },
     {
@@ -74,6 +80,7 @@ export default function() {
       price: 4.97,
       isChecked: false,
       img:  peach,
+      size: "7 Kbyte",
       link: "https://en.wikipedia.org/wiki/Peach"
     },
     {
@@ -83,6 +90,7 @@ export default function() {
       price: 4.97,
       isChecked: false,
       img:  pineapple,
+      size: "8 Kbyte",
       link: "https://en.wikipedia.org/wiki/Pineapple"
     },
     {
@@ -92,6 +100,7 @@ export default function() {
       price: 3.97,
       isChecked: false,
       img:  pomegranate,
+      size: "12 Kbyte",
       link: "https://en.wikipedia.org/wiki/Pomegranate"
     },
     {
@@ -101,6 +110,7 @@ export default function() {
       price: 5.13,
       isChecked: false,
       img:  raspberry,
+      size: "119 Kbyte",
       link: "https://en.wikipedia.org/wiki/Raspberry"
     },
     {
@@ -110,6 +120,7 @@ export default function() {
       price: 5.27,
       isChecked: false,
       img:  strawberry,
+      size: "54 Kbyte",
       link: "https://en.wikipedia.org/wiki/Strawberry"
     },
     {
@@ -119,6 +130,7 @@ export default function() {
       price: 4.39,
       isChecked: false,
       img:  tomato,
+      size: "7 Kbyte",
       link: "https://en.wikipedia.org/wiki/Tomato"
     }
   ];

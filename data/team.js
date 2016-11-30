@@ -1,11 +1,11 @@
-import rodFar1 from '../public/images/team/rodFar1.jpg'
-import rodFar2 from '../public/images/team/rodFar2.jpg'
-import rodFar3 from '../public/images/team/rodFar3.jpg'
-import rodFar4 from '../public/images/team/rodFar4.jpg'
-import rodFar5 from '../public/images/team/rodFar5.jpg'
-import rodFar6 from '../public/images/team/rodFar6.jpg'
-import rodFar7 from '../public/images/team/rodFar7.jpg'
-import rodFar8 from '../public/images/team/rodFar8.jpg'
+import rodFar1 from '../public/images/team/libertyNY.jpg'
+import rodFar2 from '../public/images/team/bernSwiss.jpg'
+import rodFar3 from '../public/images/team/bora2Tahiti.jpg'
+import rodFar4 from '../public/images/team/caveTurkey.jpg'
+import rodFar5 from '../public/images/team/chenonceaux.jpg'
+import rodFar6 from '../public/images/team/corcovadoBrazil.jpg'
+import rodFar7 from '../public/images/team/grandCanyon.jpg'
+import rodFar8 from '../public/images/team/pisaItaly.jpg'
 
 export default function() {
   return [
@@ -15,7 +15,8 @@ export default function() {
   	  lname: "Kay",
   	  title: "Project Manager",
   	  linkedin: "https://www.linkedin.com/in/rodk88",
-  	  photo: rodFar1
+  	  photo: rodFar1,
+      size: "342 Kbyte"
     }, 
     {
   	  id: 2,
@@ -23,7 +24,8 @@ export default function() {
   	  lname: "Kay",
   	  title: "Web Developer",
   	  linkedin: "https://www.linkedin.com/in/rodk88",
-  	  photo: rodFar2
+  	  photo: rodFar2,
+      size: "448 Kbyte"
     }, 
     {
   	  id: 3,
@@ -31,7 +33,8 @@ export default function() {
   	  lname: "Kay",
   	  title: "Business Developer",
   	  linkedin: "https://www.linkedin.com/in/rodk88",
-  	  photo: rodFar3
+  	  photo: rodFar3,
+      size: "298 Kbyte"
     }, 
     {
   	  id: 4,
@@ -39,7 +42,8 @@ export default function() {
   	  lname: "Kay",
   	  title: "Hardware Circuit Engineer",
   	  linkedin: "https://www.linkedin.com/in/rodk88",
-  	  photo: rodFar4
+  	  photo: rodFar4,
+      size: "344 Kbyte"
     },
         {
       id: 5,
@@ -47,7 +51,8 @@ export default function() {
       lname: "Kay",
       title: "Assistant #1",
       linkedin: "https://www.linkedin.com/in/rodk88",
-      photo: rodFar5
+      photo: rodFar5,
+      size: "301 Kbyte"
     }, 
     {
       id: 6,
@@ -55,7 +60,8 @@ export default function() {
       lname: "Kay",
       title: "Assistant #2",
       linkedin: "https://www.linkedin.com/in/rodk88",
-      photo: rodFar6
+      photo: rodFar6,
+      size: "336 Kbyte"
     }, 
     {
       id: 7,
@@ -63,7 +69,8 @@ export default function() {
       lname: "Kay",
       title: "Assistant #3",
       linkedin: "https://www.linkedin.com/in/rodk88",
-      photo: rodFar7
+      photo: rodFar7,
+      size: "217 Kbyte"
     }, 
     {
       id: 8,
@@ -71,7 +78,8 @@ export default function() {
       lname: "Kay",
       title: "Assistant #4",
       linkedin: "https://www.linkedin.com/in/rodk88",
-      photo: rodFar8
+      photo: rodFar8,
+      size: "216 Kbyte"
     }
   ];
 };

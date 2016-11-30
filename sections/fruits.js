@@ -12,7 +12,7 @@ export default class Fruits extends React.Component {
       backgroundColor: "#ffcc00"
     }
     const showFruits = this.props.fruits.map(fruit => 
-      <FruitItems key={fruit.id} id={fruit.id} cname={fruit.cname} lname={fruit.lname} price={fruit.price} img={fruit.img} link={fruit.link}/> );
+      <FruitItems key={fruit.id} id={fruit.id} cname={fruit.cname} lname={fruit.lname} price={fruit.price} img={fruit.img} size={fruit.size} link={fruit.link}/> );
   	return (
       <div id="fruits" class="container-fluid" style={myStyle}>
         <div class="row">

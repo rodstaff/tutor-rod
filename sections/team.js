@@ -12,7 +12,7 @@ export default class Team extends React.Component {
       backgroundColor: "#505050"
     }
     const showTeamMembers = this.props.teamMems.map(teamMem => 
-      <TeamMems key={teamMem.id} id={teamMem.id} fname={teamMem.fname} lname={teamMem.lname} title={teamMem.title} linkedin={teamMem.linkedin} photo={teamMem.photo}/> );
+      <TeamMems key={teamMem.id} id={teamMem.id} fname={teamMem.fname} lname={teamMem.lname} title={teamMem.title} linkedin={teamMem.linkedin} photo={teamMem.photo} size={teamMem.size}/> );
   	return (
       <div id="team" class="container-fluid" style={myStyle}>
         <div class="row">
