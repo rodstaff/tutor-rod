@@ -14,7 +14,7 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       fruits: this.props.fruits,
-      team: this.props.team,
+      teamMems: this.props.teamMems,
       bkImg: this.props.bkImg
     };
   }
@@ -26,18 +26,18 @@ export default class App extends React.Component {
         <About bkImg={this.state.bkImg}/>
         <Fruits fruits={this.state.fruits}/>
         <Register/>      
-        <Team team={this.state.team}/>
+        <Team teamMems={this.state.teamMems}/>
       </div>
     );
   }
 }
 App.propTypes = {
   fruits: React.PropTypes.array.isRequired,
-  team: React.PropTypes.array.isRequired,
+  teamMems: React.PropTypes.array.isRequired,
   bkImg: React.PropTypes.array.isRequired
 }
 App.defaultProps = {
   fruits: fruitsData(),
-  team: teamData(),
+  teamMems: teamData(),
   bkImg: bkImg()
 }
