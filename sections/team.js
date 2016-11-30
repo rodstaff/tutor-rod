@@ -10,11 +10,11 @@ export default class Contact extends React.Component {
       backgroundColor: "#505050"
     }
   	return (
-      <div id="contact" class="container-fluid" style={myStyle}>
+      <div id="team" class="container-fluid" style={myStyle}>
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center">
-              <h1>Contact</h1>
+              <h1>Meet Our Team</h1>
               <p>God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.</p>
             </div>
           </div>

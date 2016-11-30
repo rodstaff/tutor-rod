@@ -23,7 +23,7 @@ export default class Nav extends React.Component {
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#fruits">Fruits</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#team">Team</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right" style={myStyle2}>
         <li><a href="#register"><span class="glyphicon glyphicon-user"></span>&nbsp;Sign Up</a></li>
