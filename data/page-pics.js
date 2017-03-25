@@ -1,4 +1,4 @@
-import home from '../public/images/others/home.jpg'
+import home from '../public/images/others/bkstack.jpeg'
 import about from '../public/images/others/about.jpg'
 
 export default function() {
