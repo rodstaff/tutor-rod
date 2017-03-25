@@ -1,3 +1,3 @@
-#pro-seed
+#tutor-rod
 
-This is a template app for ReactJS using Bootstrap with scrolling.
+This is Rod's website in ReactJS using Bootstrap with scrolling.
