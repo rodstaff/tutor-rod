@@ -3,10 +3,11 @@ import React from 'react'
 export default class Home extends React.Component {
   render() {
     var myStyle1 = {
-      fontFamily: "Dosis",
+      fontFamily: "Dancing Script",
       paddingTop: "370px",
       height: "930px",
-      color:  "#fff",
+      color: "#00FFFF",
+      //color:  "#fff",
       backgroundImage: `url(${this.props.bkImg[0].homeImg})`,
       backgroundSize: 'cover'
     }
