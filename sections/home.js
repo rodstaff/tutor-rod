@@ -15,12 +15,15 @@ export default class Home extends React.Component {
       paddingTop: "370px",
       color: "yellow"
     }
+    var myStyle3 = {
+      fontSize: 100
+    }
   	return (
       
       <div id="home" class="container-fluid text-center" style={myStyle1}>
-        <h1>Are you looking for a reliable tutor?  This is the right place for you!</h1>
-        <h2>{'<'}<em> Find the right tutor for you. </em>{'>'}&nbsp;</h2>
-        <p>God yzal eht revo spmuj xof nworb kciuq eht.&nbsp;&nbsp;The quick brown fox jumps over the lazy dog.</p>
+        <header style={myStyle3}>Math, Science, Test Prep Tutors Here!</header>
+        <h1>Are you looking for a reliable tutor?  Scroll down and find out more...</h1>
+        <h2>{'<'}<em> Only great tutors here </em>{'>'}&nbsp;</h2>
         <div style={myStyle2}>
           <p>{this.props.bkImg[0].size}</p>
         </div>
