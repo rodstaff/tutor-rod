@@ -4,7 +4,7 @@ export default class Home extends React.Component {
   render() {
     var myStyle1 = {
       fontFamily: "Dancing Script",
-      paddingTop: "370px",
+      paddingTop: "170px",
       height: "930px",
       color: "#00FFFF",
       //color:  "#fff",
@@ -18,12 +18,18 @@ export default class Home extends React.Component {
     var myStyle3 = {
       fontSize: 100
     }
+    var myStyle4 = {
+      fontSize: 40,
+      fontFamily:  "Dosis",
+      color: "#00FFFF"
+    }
   	return (
       
       <div id="home" class="container-fluid text-center" style={myStyle1}>
         <header style={myStyle3}>Math, Science, Test Prep Tutors Here!</header>
-        <h1>Are you looking for a reliable tutor?  Scroll down and find out more...</h1>
-        <h2>{'<'}<em> Only great tutors here </em>{'>'}&nbsp;</h2>
+        <h1 style={myStyle4}>Technology is being used in education in ways that help facilitate learning.  
+        for example, online platforms are being used to reach out to more people liberating both the tutor and student constraints of space and time.  However, a number of tutors still cling to the traditional face-to-face approach and for a reason...</h1>
+        <h2>{'<'}<em> Only warm, dedicated tutors here </em>{'>'}&nbsp;</h2>
         <div style={myStyle2}>
           <p>{this.props.bkImg[0].size}</p>
         </div>
