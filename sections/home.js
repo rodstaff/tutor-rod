@@ -21,7 +21,7 @@ export default class Home extends React.Component {
     var myStyle4 = {
       fontSize: 40,
       fontFamily:  "Dosis",
-      color: "#00FFFF"
+      color: "#fff"
     }
   	return (
       
