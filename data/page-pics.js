@@ -1,5 +1,5 @@
-import home from '../public/images/others/emptyblckboard1.jpg'
-import about from '../public/images/others/about.jpg'
+import home from '../public/images/others/blackboard2.png'
+import about from '../public/images/others/booksboard.jpg'
 
 export default function() {
   return [
