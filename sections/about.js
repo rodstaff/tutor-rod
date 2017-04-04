@@ -4,7 +4,7 @@ export default class About extends React.Component {
   render() {
     var myStyle1 = {
       fontFamily: "Macondo",
-      paddingTop: "50px",
+      paddingTop: "150px",
       paddingBottom: "20px",
     //  height: "100%",
       height:  "900px",
