@@ -26,7 +26,7 @@ export default class About extends React.Component {
   	return (
 
       <div id="about" class="container-fluid text-left" style={myStyle1}>
-        <h1 style={myStyle2}>(Title) is about learning...&nbsp;&nbsp;It is about caring...&nbsp;&nbsp;It is about one human helping another.&nbsp;&nbsp;No online platform can replace the human interaction.</h1>
+        <h1 style={myStyle2}>It is simple:  We believe in the human interaction...&nbsp;&nbsp;We are about caring.</h1>
         <p class="text-left" style={myStyle3}>&emsp;&ensp;{this.props.bkImg[1].size}</p>
      
       </div>
