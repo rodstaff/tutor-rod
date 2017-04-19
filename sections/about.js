@@ -17,7 +17,8 @@ export default class About extends React.Component {
       marginRight: "700px",
       marginBottom: "30px",
       marginLeft: "30px",
-      height: "680px" 
+      height: "680px",
+      fontSize: 57
     }
     var myStyle3 = {
       color: "orange",
@@ -26,9 +27,8 @@ export default class About extends React.Component {
   	return (
 
       <div id="about" class="container-fluid text-left" style={myStyle1}>
-        <h1 style={myStyle2}>It is simple:  We believe in the human interaction...&nbsp;&nbsp;We are about caring.the quick brown fox jumps over the lazy dog.  the quick brown fox jumps over the lazy dog.</h1>
+        <h1 style={myStyle2}>Welcome to Octonics Learning!</h1>
         <p class="text-left" style={myStyle3}>&emsp;&ensp;{this.props.bkImg[1].size}</p>
-     
       </div>
     );
   }
