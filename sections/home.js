@@ -27,7 +27,7 @@ export default class Home extends React.Component {
   	return (
       
       <div id="home" class="container-fluid text-center" style={myStyle1}>
-        <header style={myStyle3}>Math, Science, Test Prep ... Great Tutors Here, Look No Further!</header>
+        <header style={myStyle3}>Math, Science, Test Prep ... At the heart of NYC!</header>
         <div>
           <p>{this.props.bkImg[0].size}</p>
         </div>
