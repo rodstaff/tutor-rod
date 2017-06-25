@@ -20,7 +20,7 @@ export default class About extends React.Component {
     marginLeft: "10px",
     // height: "680px",
       fontSize: 57,
-      color: "cyan"
+      color: "gold"
     }
     var myStyle3 = {
       color: "orange",
@@ -28,7 +28,7 @@ export default class About extends React.Component {
     }
     var myStyle4 = {
       fontSize: 30,
-      color: "cyan",
+      color: "gold",
       marginLeft: "10px"
     }
   	return (
@@ -36,7 +36,6 @@ export default class About extends React.Component {
       <div id="about" class="container-fluid text-left" style={myStyle1}>
         <h1 style={myStyle2}>Welcome to Octonics Mentoring!</h1>
         <h2 style={myStyle4}> We specialize in standardized testing and academic tutoring in math and science.  </h2>
-        <h2 style={myStyle4}> Contact us now! </h2>
         <p class="text-left" style={myStyle3}>&emsp;&ensp;{this.props.bkImg[1].size}</p>
       </div>
     );
