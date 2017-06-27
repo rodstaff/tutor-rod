@@ -35,7 +35,7 @@ export default class About extends React.Component {
 
       <div id="about" class="container-fluid text-left" style={myStyle1}>
         <h1 style={myStyle2}>Welcome to Octonics Mentoring!</h1>
-        <h2 style={myStyle4}> We specialize in standardized testing and academic tutoring in math and science.  </h2>
+        <h2 style={myStyle4}> We specialize in standardized testing and academic tutoring.  </h2>
         <p class="text-left" style={myStyle3}>&emsp;&ensp;{this.props.bkImg[1].size}</p>
       </div>
     );
